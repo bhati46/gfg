@@ -1,0 +1,6 @@
+class Solution:
+    def firstOccurence(self,txt,pat):
+        #code here
+        if pat in txt:
+            return txt.find(pat)
+        return -1
