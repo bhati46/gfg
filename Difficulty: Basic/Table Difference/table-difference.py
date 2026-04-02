@@ -1,14 +1,8 @@
 #User function Template for python3
+n1 = int(input())
+n2 = int(input())
 
-def difference(n1,n2):
-    #Complete the code below
-    i=1
-    j=1
-    while(i<=10):
-        x=n1*i
-        y=n2*j
-        i+=1
-        j+=1
-        print(x-y,end=" ")
-        
-        
+# Your code here
+for i in range(1,11):
+    x=(n1*i)-(n2*i)
+    print(x,end=" ")
