@@ -1,5 +1,4 @@
-#User function Template for python3
-def distinct(arr):
-    # Your Code here
-    s=set(arr)
-    return len(s)
+class Solution:
+    def distinct(self, arr, n):
+        # code here
+        return len(set(arr))
